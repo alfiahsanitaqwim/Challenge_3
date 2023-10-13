@@ -80,7 +80,7 @@ const cars = [
 ]
 
 
-function sortCarByYearDescendingly(cars) {
+function sortCarByYearDecendingly(cars) {
   // Sangat dianjurkan untuk console.log semua hal hehe
   // console.log(cars);
 
@@ -109,6 +109,6 @@ function sortCarByYearDescendingly(cars) {
   // Rubah code ini dengan array hasil sorting secara descending
   return result;
 }
-sortCarByYearDescendingly(cars);
+sortCarByYearDecendingly(cars);
 // const sortedCarByYearDescendingly = sortCarByYearDescendingly(cars);
 // console.log(sortedCarByYearDescendingly);
