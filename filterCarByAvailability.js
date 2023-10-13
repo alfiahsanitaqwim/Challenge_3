@@ -90,7 +90,7 @@ function filterCarByAvailability(cars) {
   // Tulis code-mu disini
 
   for (let i=0; i<cars.length; i++){
-    if (cars[i].available === true){
+    if (cars[i].available == true){
       result.push(cars[i]);
     }
   }
