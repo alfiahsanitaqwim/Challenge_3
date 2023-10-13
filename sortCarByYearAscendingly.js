@@ -89,9 +89,11 @@ const cars = [
         const result = [...cars];
     
       // Tulis code-mu disini
+
+      const n = result.length;
     
-      for(let i=0; i<result.length-1; i++){
-        for (let j=0; j<result.length-1-i; j++){
+      for(let i=0; i<n-1; i++){
+        for (let j=0; j<n-1-i; j++){
           if (result[j].year > result[j+1].year){
             const temporaryContainer=result[j];
             result[j]=result[j+1];
